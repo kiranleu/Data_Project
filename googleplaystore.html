@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title> Google Play Store Downloads Chart</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.js"></script>
+</head>
+<navbar>
+
+    <nav class="navbar navbar-dark bg-primary">
+        <h3 class="titleNav">Google playStore</h3>
+
+
+        <h1>Data and Charts</h1>
+    </nav>
+
+</navbar>
+
+<h1></h1>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <button type="button" class="btn btn-primary">
+       <a class="buttonNav" href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+       
+       </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+
+        <h1> Review per Category</h1>
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="appCategoryChart">
+                </div>
+            </div>
+            <div class="col-sm-6">
+
+                <h3> Review per Content Rating</h3>
+                <div id="appTypeChart">
+
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div id="reviewsByCategory">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="container">
+            <div class="row">
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="container-fluid bg-primary py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="row py-0">
+                                <div class="col-sm-11">
+                                    <div>
+                                        <h4>Designed By</h4>
+                                        <p><span class="header-font">Kira  Estrada</span><span class="header-font"></p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-5">
+          <div class="d-inline-block">
+            <div class="bg-circle-outline d-inline-block">
+              <a href="https://www.facebook.com/"><i class="fa fa-2x fa-fw fa-facebook text-white"></i>
+		</a>
+            </div>
+            <div class="bg-circle-outline d-inline-block" >
+              <a href="https://twitter.com">
+                <i class="fa fa-2x fa-fw fa-twitter text-white"></i></a>
+            </div>
+
+            <div class="bg-circle-outline d-inline-block">
+              <a href="https://www.linkedin.com">
+                <i class="fa fa-2x fa-fw fa-linkedin text-white"></i></a>
+            </div>
+            <div class="bg-circle-outline d-inline-block">
+              <a href="https://www.google.com">
+                <i class="fa fa-2x fa-fw fa-google text-white"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</footer>
+    <!--/.footer-->
+<p class="text-center"> Copyright ©  </p>
+    
+</footer>
+
+
+ 
+
+
+
+    <script src="googleplaystore.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

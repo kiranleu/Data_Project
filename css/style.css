@@ -1,0 +1,66 @@
+/********************************************Styling Charts************************************/
+
+/*######Text on chart*******************/
+	g .x.axis text {
+    text-anchor: end !important; 
+    transform: rotate(90deg);
+    font-size: 1.rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    margin-bottom: -100px;
+    
+   
+}
+
+	g .y.axis text {
+    text-anchor: end !important; 
+    transform: rotate(-1150deg);
+	}
+	
+	
+/*#######################NAVBAR*******************************************/
+nav{
+    height: 160%;
+    padding-bottom: 100px;
+}
+
+
+
+a{
+    color:white;
+    background-color:yellow;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30rem;
+}
+
+
+.titleNav{
+    text-shadow: 2px 2px white;
+  
+}
+
+.buttonNav{
+    color: black;
+    text-align: left;
+}
+
+/*####################BODY******************************************/
+
+body{
+    background-color: silver;
+    
+}
+
+.card text-center {
+    background-color: blue;
+}
+
+/*####################        Footer ##########################*/
+
+i{
+    border: 2px solid white;
+    border-radius: 5px;
+}
