@@ -8,6 +8,8 @@
     font-family: 'Poppins', sans-serif;
     text-align: justify;
     margin-bottom: -100px;
+    display: inline-block;
+    padding: 50px;
     
    
 }
@@ -22,6 +24,7 @@
 nav{
     height: 160%;
     padding-bottom: 100px;
+    padding-top:30px;
 }
 
 
@@ -31,6 +34,10 @@ a{
     background-color:yellow;
 }
 
+a:hover{
+    color:yellow;
+}
+
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 30rem;
@@ -38,7 +45,7 @@ h1{
 
 
 .titleNav{
-    text-shadow: 2px 2px white;
+   
   
 }
 
@@ -51,16 +58,30 @@ h1{
 
 body{
     background-color: silver;
+    margin: 0px;
+    padding: 0px;
+    max-height: auto;
+    max-width: auto;
     
+}
+
+.svg{
+    padding:0px;
+    max-width: auto
+    margin-bottom: auto;
 }
 
 .card text-center {
     background-color: blue;
 }
 
+
 /*####################        Footer ##########################*/
 
 i{
     border: 2px solid white;
     border-radius: 5px;
+}
+.col-md-6 text-rigth{
+    text-align: right;
 }
