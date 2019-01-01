@@ -31,6 +31,23 @@ I have used a  standard  code style.
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
  
+ 
+ ## Tests
+
+### _Manual Testing_
+
+- Modal Box: It is visible and responsive.  It advices to the user so they can get a better experience.
+
+- Reset All button: It has been tested and all the three charts are interacting with each other after clicking on one of the charts.
+
+- Icons from Footer:
+        
+    1. Facebook: it shows my personal Facebook page when clicking on it.
+    2. Instagram: it shows my personal Instagram page when clicking on it.
+    3. Twitter: it shows my personal Twitter page when clicking on it.
+    4. Google: it shows Google search page.
+    
+        
 
 ## Tech and framework used
 
@@ -55,6 +72,11 @@ This feature makes the charts being more readable and easy to understand.
 
 3. When the viewport is resize the charts will restar automatically.
 
+
+### Future Features
+
+I would like, in the future to make the charts fully responsive so it could be fully viewed on any type of viewport.
+
 ## Credits
 
 The data file was provided by 
@@ -62,6 +84,8 @@ The data file was provided by
 
 This data was given as a csv file and this one can be found, here:
 [Google PlayStore Downloaded Apps](https://www.kaggle.com/lava18/google-play-store-apps)
+
+
 
 
  © [Kira Estrada]()
