@@ -5,35 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
 
     <title> Google Play Store Downloads Chart</title>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.css" />
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.js"></script>
 </head>
-<navbar>
 
-    <nav class="navbar navbar-dark bg-primary">
-        <h3 class="titleNav">Google playStore</h3>
+<!--Navbar Starts here!-->
 
 
-        <h1>Data and Charts</h1>
-    </nav>
+<nav class="navbar navbar-dark bg-primary">
+    <h3 class="titleNav">Google PlayStore</h3>
 
-</navbar>
 
-<h1></h1>
-<p></p>
+    <h1 class="titleNav">Data and Charts</h1>
+
+
+</nav>
+<!-- Navbar Ends here!-->
+
+<div class="alert alert-info" role="alert">
+  <h4 class="alert-heading">Welcome to our Graphics</h4>
+  <p>For better user experience and visualisation please see this graphics on desktop</p>
+  <p class="mb-0">Thanks!</p>
+</div>
 
 
 <body>
+
+<!-- Button and title section starts here!-->
+    <section>  
     <div class="container">
+        <h3> In the following graphs we can observe different comparision of the app dowloads from Google Playstore</h3>
+<p></p>
+
         <div class="row">
             <div class="col-sm-12">
                 <button type="button" class="btn btn-primary">
@@ -43,53 +58,62 @@
             </div>
         </div>
     </div>
+    </section>  
+    
+<!-- Button and title section ends here!-->
 
 
+<!-- Data Charts Dispplay section starts here!-->
+    <section>
 
-    <div class="container-fluid">
-
+    <div class="container">
 
         <div class="row">
             <div class="col-sm-12">
-                <h1> Review per Category</h1>
+
                 <div id="appCategoryChart">
+                    <h1> Review per Category</h1>
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-12 mr-4">
-                      
+                    <div class="col-sm-12 mr-12">
+
                         <div id="appTypeChart">
- <h1>Percent of Installs by Reviews</h1>
+
+                            <h1>Percent of Installs by Reviews</h1>
 
                         </div>
                     </div>
                 </div>
+            </div>
+        
+          
+            <div class="col-sm-12 text-center">
 
-                <div class="col-sm-12 text-center">
-                   
-                    <div id="installsByCategory">
-                         <h1>Reviews By Category and Content Rating</h1>
-
-                    </div>
-
+                <div id="installsByCategory">
                 </div>
+                <h1>Reviews By Category and Content Rating</h1>
+
+
             </div>
         </div>
+    </div>
+</section>  
 
-        <footer>
+<!-- Data Charts Dispplay section ends here!-->
+
+<!-- Footer starts here!-->
+
+    <footer>
+        <div class="container-fluid bg-primary py-3">
+            <div class="container-fluid">
+                <div class="row">
 
 
+                    <div class="col-sm-6">
 
-
-            <div class="container-fluid bg-primary py-3">
-                <div class="container-fluid">
-                    <div class="row">
-
-
-                        <div class="col-sm-6">
-
-                            <h4>Designed By</h4>
-                            <p><span class="header-font">Kira  Estrada</span><span class="header-font"></p>
+                        <h4 class="titleNav">Designed By</h4>
+                        <p><span class="header-font" class="titleNav">Kira  Estrada</span><span class="header-font"></p>
                                </div>
                             
                         
@@ -119,18 +143,12 @@
     </div>
     
 </footer>
-  
-<p class="text-center"> Copyright ©  </p>
-    
-</footer>
-
-
+<!-- Footer ends here!-->
  
 
 
 
     <script src="googleplaystore.js"></script>
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
