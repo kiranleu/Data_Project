@@ -2,11 +2,13 @@
 // We inform the user that mobile phone viewport is not advised!
 
 //   Reload: resizing the window Width
+
+
 let windowWidth = document.documentElement["clientWidth"];
 
 window.onresize = function() {
     location.reload();
-}
+};
 
 //Running queue to get the csv data document open
 queue()
@@ -40,7 +42,7 @@ function makeCharts(error, transactionsData) {
         .width(600)
         .height(400)
         .colorAccessor(function(d) {
-            return d.key
+            return d.key;
         })
         .colors(categoryColors)
         .dimension(categoryDim)
@@ -50,7 +52,7 @@ function makeCharts(error, transactionsData) {
         .xAxisLabel("Category")
         .renderlet(function(chart) {
             chart.selectAll("g.x text")
-                .attr("y", -3)
+                .attr("y", -3);
         })
         .yAxisLabel("Reviews")
         .elasticY(true)
@@ -64,7 +66,7 @@ function makeCharts(error, transactionsData) {
 
 
     let appTypeChart = dc.pieChart("#appTypeChart");
-    let categoryColors1 = d3.scale.ordinal().range(["#00A1F1", "#7CBB00", "#FFBB00", "#F65314", "red"])
+    let categoryColors1 = d3.scale.ordinal().range(["#00A1F1", "#7CBB00", "#FFBB00", "#F65314", "red"]);
 
 
     appTypeChart
@@ -78,7 +80,7 @@ function makeCharts(error, transactionsData) {
         .externalRadiusPadding(-150)
         .drawPaths(true)
         .colorAccessor(function(d) {
-            return d.key
+            return d.key;
         })
         .transitionDuration(1500)
         .colors(categoryColors1)
@@ -104,7 +106,7 @@ function makeCharts(error, transactionsData) {
             else {
                 return 0;
             }
-        }
+        };
     }
 
     let InstallsByAdult = categoryDim1.group().reduceSum(reviewByAge("Adults only 18+"));
@@ -161,3 +163,4 @@ function makeCharts(error, transactionsData) {
     dc.renderAll();
 
 }
+

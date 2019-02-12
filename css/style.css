@@ -1,3 +1,55 @@
+/********************************************     MEDIA QUERIES     ************************************/
+/*Media queries appplied to the alert box so is only shown on mobile devices.*/
+
+@media (max-width:576px){
+
+  .container {
+
+    display: none;
+
+  }
+ 
+.alert {
+   
+    /* padding: .75rem 1.25rem; */
+    margin-bottom: 0rem !important; 
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    padding-bottom: 272px;
+    height: -webkit-fill-available;
+    line-height: 5em;
+}
+footer{
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: $height-footer;
+    background-color: #f5f5f5;
+}
+
+
+}
+
+@media (min-width: 900px) and (min-width: 600px){
+    
+    .navbar{
+        padding: 5.5rem 1rem;
+    }
+    .alert {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 /********************************************     STYLING CHARTS     ************************************/
 
 
@@ -94,5 +146,12 @@ i{
     text-align: right;
 }
 
-
-
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
