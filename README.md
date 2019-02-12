@@ -5,29 +5,29 @@ and relating different aspects of the variety of downloaded apps from Google Pla
 
 ## Getting Started
 
-To be able to enjoy all the charts together is advice to used a desktop viewport so a full view of 
-all charts: relations and comparisions will be possible.
+To be able to enjoy all the charts together it's adviced to used a desktop viewport so a full view of 
+all charts: relations and comparisons will be possible.
 
-This comaprision can be observed by clicking in one of the charts and see how this affects the rest of 
+This comaprison can be observed by clicking in one of the charts and seeing how this affects the rest of 
 charts.
 
 
 ## Motivation
 
-What really motivated me to do make this charts was the curiosity to see wht type of apps were downloaded more and 
+What really motivated me to do make these charts was the curiosity to see what type of apps were downloaded more and 
 what age group was more interested on which type of apps.
 
-This project exists so people could learn more about what type of apps are dowloaded the most.
+This project exists so people could learn more about what type of apps are downloaded the most.
 
 This project has been created to help: 
 1. Developers to make their apps knowing the interest of their public.
-2. Marketing: to know who are the most porpular app nowadasys.
+2. Marketing: to know who are the most porpular app nowadays.
 3. Curios people who would liket to find out more about Google Play Store Downloads Apps
 
 
 ## Code style
 
-I have used a  standard  code style. 
+I have used a standard code style. 
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
  
@@ -36,7 +36,7 @@ I have used a  standard  code style.
 
 ### _Manual Testing_
 
-- Modal Box: It is visible and responsive.  It advices to the user so they can get a better experience.
+- Modal Box: It is visible and responsive.  It advises to the user so they can get a better experience.
 
 - Reset All button: It has been tested and all the three charts are interacting with each other after clicking on one of the charts.
 
@@ -63,14 +63,14 @@ This project was built using: JAvascript, D3, Queue, Bootstrap.
 
 ## Features
 
-1. This project show a relationship between the differen comparision charts. This comparision is 
+1. This project show a relationship between the different comparison charts. This comparison is 
 shown trhow changing the color and size of each piece of chart in relation to the other charts. 
 This feature makes the charts being more readable and easy to understand.
 
 2. _Reset all Button_
-    This button allows the user to reset all the charts to the begining point at any time.
+    This button allows the user to reset all the charts to the beginning point at any time.
 
-3. When the viewport is resize the charts will restar automatically.
+3. When the viewport is resize the charts will restart automatically.
 
 
 ### Future Features

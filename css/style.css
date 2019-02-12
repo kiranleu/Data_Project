@@ -16,8 +16,7 @@
     border: 1px solid transparent;
     border-radius: .25rem;
     padding-bottom: 272px;
-    height: -webkit-fill-available;
-    line-height: 5em;
+    
 }
 footer{
     bottom: 0;
@@ -39,15 +38,6 @@ footer{
         display: none;
     }
 }
-
-
-
-
-
-
-
-
-
 
 
 /********************************************     STYLING CHARTS     ************************************/
