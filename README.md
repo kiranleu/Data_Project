@@ -29,7 +29,7 @@ This project has been created to help:
 
 I have used a standard code style. 
 
-[![js-standard-style]
+
  
  
  ## Tests
